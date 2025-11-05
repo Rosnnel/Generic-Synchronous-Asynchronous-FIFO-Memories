@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Rosnnel Moncada
-// 
-// Create Date: 25.08.2025 11:05:33
-// Design Name: 
-// Module Name: SFIFO_TB
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module SFIFO_TB();
 

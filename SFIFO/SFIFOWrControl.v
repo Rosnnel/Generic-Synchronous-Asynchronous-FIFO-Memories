@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Rosnnel Moncada
-// 
-// Create Date: 25.07.2025 11:31:27
-// Design Name: FIFO Write Controller
-// Module Name: FIFOWrControl
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module FIFOWrControl #(parameter AddrLines = 8)
 (clk,reset,FIFOWrReq,SyncRdAddr,WrEn,WrAddr,SyncWrAddr,FIFOFull);

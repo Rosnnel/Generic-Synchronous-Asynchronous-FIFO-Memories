@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Rosnnel Moncada
-// 
-// Create Date: 28.07.2025 09:17:05
-// Design Name: Synchronous Firs-In First-Out Memory
-// Module Name: SFIFO
-// Project Name: 
-// Target Devices: XC7S50CSGA324-1
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module SFIFO #(parameter Depth = 512, Width = 8)
 (clk,reset,WRData,FIFORdReq,FIFOWrReq,RDData,FIFOFull,FIFOEmpty);

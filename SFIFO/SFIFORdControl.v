@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Rosnnel Moncada
-// 
-// Create Date: 28.07.2025 08:53:46
-// Design Name: First-In First-Out Read Controller
-// Module Name: FIFORdControl
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module FIFORdControl#(parameter AddrLines = 8)
 (clk,reset,FIFORdReq,SyncWrAddr,RdEn,FIFOEmpty,RdAddr,SyncRdAddr);

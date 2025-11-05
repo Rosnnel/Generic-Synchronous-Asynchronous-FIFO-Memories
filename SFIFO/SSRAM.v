@@ -1,24 +1,5 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: Rosnnel Moncada
-// 
-// Create Date: 25.07.2025 11:05:09
-// Design Name: Static Random Access Memory
-// Module Name: SRAM
-// Project Name: ConsoleAccessProject
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
 
 module SSRAM #(parameter Depth = 512, Width = 8)
 (clk,WrData,WrEn,WrAddr,RdData,RdEn,RdAddr);

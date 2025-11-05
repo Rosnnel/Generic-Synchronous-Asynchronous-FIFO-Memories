@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: CERN-OHL-S-2.0
+// © 2025 Rosnnel Moncada
+
 module AFIFORDControl #(parameter AddrLines = 3)(RDclk,reset,RDreq,GrayWRaddr,RDen,RDaddr,GrayRDaddr,FIFOempty);
 
 	input RDclk,reset,RDreq;
